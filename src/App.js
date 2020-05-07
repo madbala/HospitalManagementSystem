@@ -8,6 +8,7 @@ class App extends React.Component {
     this.state = {
       isLogginActive: true
     };
+    console.log(props, "props");
   }
 
   componentDidMount() {
@@ -68,5 +69,6 @@ const RightSide = props => {
     </div>
   );
 };
+
 
 export default App;
